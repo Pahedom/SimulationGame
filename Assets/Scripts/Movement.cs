@@ -1,38 +1,54 @@
 using UnityEngine;
+using UnityEngine.Events;
 
-[RequireComponent(typeof(Rigidbody2D))]
-public class Movement : MonoBehaviour
+namespace Player
 {
-    [SerializeField] private float speed;
-
-    private Rigidbody2D myRigidbody;
-
-    private void Awake()
+    [RequireComponent(typeof(Rigidbody2D))]
+    public class Movement : MonoBehaviour
     {
-        myRigidbody = GetComponent<Rigidbody2D>();
-    }
+        [SerializeField] private float speed;
 
-    private void Update()
-    {
-        Move(new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
-    }
+        private Rigidbody2D myRigidbody;
 
-    public void Move(Vector2 direction)
-    {
-        myRigidbody.velocity = direction * speed;
+        public UnityEvent OnStartMoving;
+        public UnityEvent OnStopMoving;
 
-        Flip(direction.x);
-    }
-
-    private void Flip(float directionX)
-    {
-        if (directionX < 0)
+        private void Awake()
         {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
+            myRigidbody = GetComponent<Rigidbody2D>();
         }
-        else if (directionX > 0)
+
+        private void Update()
         {
-            transform.rotation = Quaternion.identity;
+            Move(new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
+        }
+
+        public void Move(Vector2 direction)
+        {
+            if (myRigidbody.velocity == Vector2.zero && direction != Vector2.zero)
+            {
+                OnStartMoving.Invoke();
+            }
+            else if (myRigidbody.velocity != Vector2.zero && direction == Vector2.zero)
+            {
+                OnStopMoving.Invoke();
+            }
+
+            myRigidbody.velocity = direction * speed;
+
+            Flip(direction.x);
+        }
+
+        private void Flip(float directionX)
+        {
+            if (directionX < 0)
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+            else if (directionX > 0)
+            {
+                transform.rotation = Quaternion.identity;
+            }
         }
     }
 }

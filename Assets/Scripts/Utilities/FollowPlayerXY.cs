@@ -16,6 +16,8 @@ namespace Utilities
             public float bottom;
         }
 
+        [SerializeField] private Constraints constraints;
+
         private Transform player;
 
         void Awake()
@@ -30,7 +32,10 @@ namespace Utilities
 
         private void Follow()
         {
-            transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, transform.position.z);
+            float posX = Mathf.Clamp(player.position.x + offset.x, constraints.left, constraints.right);
+            float posY = Mathf.Clamp(player.position.y + offset.y, constraints.bottom, constraints.top);
+
+            transform.position = new Vector3(posX, posY, transform.position.z);
         }
     }
 }

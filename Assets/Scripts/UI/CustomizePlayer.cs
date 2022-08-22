@@ -1,4 +1,5 @@
 using Player;
+using Shop;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,62 +33,94 @@ namespace UI
             }
         }
 
-        public void ChangeHood(GameObject obj)
+        public void ChangeHood(BuyableItem obj)
         {
-            Image image = obj.GetComponentInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image image = obj.item.GetComponentInChildren<Image>();
             player.ChangeHood(image.sprite);
             hood.sprite = image.sprite;
         }
 
-        public void ChangeTorso(GameObject obj)
+        public void ChangeTorso(BuyableItem obj)
         {
-            Image image = obj.GetComponentInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image image = obj.item.GetComponentInChildren<Image>();
             player.ChangeTorso(image.sprite);
             torso.sprite = image.sprite;
         }
 
-        public void ChangeWaist(GameObject obj)
+        public void ChangeWaist(BuyableItem obj)
         {
-            Image image = obj.GetComponentInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image image = obj.item.GetComponentInChildren<Image>();
             player.ChangeWaist(image.sprite);
             waist.sprite = image.sprite;
         }
 
-        public void ChangeShoulders(GameObject obj)
+        public void ChangeShoulders(BuyableItem obj)
         {
-            Image[] images = obj.GetComponentsInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image[] images = obj.item.GetComponentsInChildren<Image>();
             player.ChangeShoulders(images[0].sprite, images[1].sprite);
             shoulderL.sprite = images[0].sprite;
             shoulderR.sprite = images[1].sprite;
         }
 
-        public void ChangeElbows(GameObject obj)
+        public void ChangeElbows(BuyableItem obj)
         {
-            Image[] images = obj.GetComponentsInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image[] images = obj.item.GetComponentsInChildren<Image>();
             player.ChangeElbows(images[0].sprite, images[1].sprite);
             elbowL.sprite = images[0].sprite;
             elbowR.sprite = images[1].sprite;
         }
 
-        public void ChangeWrists(GameObject obj)
+        public void ChangeWrists(BuyableItem obj)
         {
-            Image[] images = obj.GetComponentsInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image[] images = obj.item.GetComponentsInChildren<Image>();
             player.ChangeWrists(images[0].sprite, images[1].sprite);
             wristL.sprite = images[0].sprite;
             wristR.sprite = images[1].sprite;
         }
 
-        public void ChangeLegs(GameObject obj)
+        public void ChangeLegs(BuyableItem obj)
         {
-            Image[] images = obj.GetComponentsInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image[] images = obj.item.GetComponentsInChildren<Image>();
             player.ChangeLegs(images[0].sprite, images[1].sprite);
             legL.sprite = images[0].sprite;
             legR.sprite = images[1].sprite;
         }
 
-        public void ChangeBoots(GameObject obj)
+        public void ChangeBoots(BuyableItem obj)
         {
-            Image[] images = obj.GetComponentsInChildren<Image>();
+            if (!obj.owned)
+            {
+                return;
+            }
+            Image[] images = obj.item.GetComponentsInChildren<Image>();
             player.ChangeBoots(images[0].sprite, images[1].sprite);
             bootL.sprite = images[0].sprite;
             bootR.sprite = images[1].sprite;

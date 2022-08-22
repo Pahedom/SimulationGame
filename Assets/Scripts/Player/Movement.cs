@@ -8,6 +8,8 @@ namespace Player
     {
         [SerializeField] private float speed;
 
+        [SerializeField] private Animator animator;
+
         private Rigidbody2D myRigidbody;
 
         public UnityEvent OnStartMoving;
@@ -20,6 +22,8 @@ namespace Player
 
         private void Update()
         {
+            animator.SetBool("Moving", myRigidbody.velocity != Vector2.zero);
+
             Move(new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")));
         }
 

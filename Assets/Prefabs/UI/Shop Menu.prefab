@@ -3782,6 +3782,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 5626947907432361615}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -5066,30 +5078,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hood
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeHood
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 667843358716671977}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5383,30 +5371,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shoulders (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeShoulders
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831104118905}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -5571,30 +5535,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Waist
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWaist
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831134162291}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -5913,30 +5853,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Waist (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWaist
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831147708046}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6068,30 +5984,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Hood (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeHood
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830957087992}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -6244,30 +6136,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Legs (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeLegs
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831028838799}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -6599,30 +6467,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boots
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeBoots
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831436013628}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -6779,30 +6623,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Wrists (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWrists
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831468897939}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -6961,30 +6781,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torso (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTorso
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831222091121}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -7136,30 +6932,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Shoulders (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeShoulders
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831323057543}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -7483,30 +7255,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elbows (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeElbows
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831704265353}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -7664,30 +7412,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boots (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeBoots
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831716969165}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -7844,30 +7568,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Waist (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWaist
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831498138741}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -8029,30 +7729,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torso
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTorso
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831524087068}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8204,30 +7880,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Waist (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWaist
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831556003917}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -8389,30 +8041,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wrists
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWrists
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831571112661}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -8569,30 +8197,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Torso (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTorso
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831939546284}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -8753,30 +8357,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Legs
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeLegs
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831942386513}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -8943,30 +8523,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shoulders
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeShoulders
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831995303340}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -9124,30 +8680,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wrists (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWrists
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257832014835058}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -9304,30 +8836,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Wrists (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWrists
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831791313045}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -9647,30 +9155,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torso (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTorso
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257831877353906}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -9984,30 +9468,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shoulders (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeShoulders
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257829925631986}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -10144,30 +9604,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Hood (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeHood
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830195366187}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -10320,30 +9756,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Waist (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWaist
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830608767492}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -10662,30 +10074,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boots (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeBoots
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830472453741}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -10843,30 +10231,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torso (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTorso
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830474841862}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -11019,30 +10383,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torso (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTorso
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830485201643}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -11194,30 +10534,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Elbows (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeElbows
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830494525673}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -11376,30 +10692,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Waist (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWaist
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830504898765}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -11551,30 +10843,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Shoulders (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeShoulders
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830501813546}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -11733,30 +11001,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boots (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeBoots
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830900849045}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -11914,30 +11158,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legs (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeLegs
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830921506371}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -12094,30 +11314,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Elbows (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeElbows
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830928194060}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -12449,30 +11645,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elbows
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeElbows
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830710914425}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -12630,30 +11802,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shoulders (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeShoulders
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830748037345}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -12791,30 +11939,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hood (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeHood
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830744920088}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -12946,30 +12070,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Hood (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeHood
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830741489122}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
@@ -13118,30 +12218,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Wrists (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeWrists
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830757246013}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
@@ -13300,30 +12376,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boots (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeBoots
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830769498663}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -13460,30 +12512,6 @@ PrefabInstance:
     - target: {fileID: 5306454945900244515, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Name
       value: Hood (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 5626947907432361609}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeHood
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: UI.CustomizePlayer, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4687257830785890080}
-    - target: {fileID: 6080938284721188533, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Shop.BuyableItem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7667009698407646800, guid: d7667ab0841c8fb4fb0174b434703ac4, type: 3}
       propertyPath: m_Sprite

@@ -8,14 +8,21 @@ namespace Interactables
     {
         [SerializeField] private Animator animator;
 
+        [SerializeField] private AudioSource openSound;
+        [SerializeField] private AudioSource closeSound;
+
         private void Open()
         {
             animator.SetTrigger("PlayerEnter");
+
+            openSound.Play();
         }
 
         private void Close()
         {
             animator.SetTrigger("PlayerExit");
+
+            closeSound.Play();
         }
 
         private void OnTriggerEnter2D(Collider2D collision)

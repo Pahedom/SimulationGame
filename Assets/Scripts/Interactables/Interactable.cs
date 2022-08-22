@@ -30,8 +30,6 @@ namespace Interactables
 
         public void Interact()
         {
-            interactPopup.SetActive(false);
-
             OnInteract?.Invoke();
         }
 

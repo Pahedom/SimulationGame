@@ -975,7 +975,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 21300000, guid: 468244f274f38f64b85773c7888444b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 04f6c40e52535b941b42e11550f9cb8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1618,6 +1618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3791140007108913476}
   - component: {fileID: 3874048126889408572}
+  - component: {fileID: 2144949156341393059}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -1661,6 +1662,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2144949156341393059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3787929423932018720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c817afef8e78b346b5119a909edc8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hood: {fileID: 3919201360883517746}
+  torso: {fileID: 3919201355458779014}
+  waist: {fileID: 3919201362246131304}
+  shoulderL: {fileID: 3919201360214293132}
+  shoulderR: {fileID: 3919201360042203190}
+  elbowL: {fileID: 3919201360791913960}
+  elbowR: {fileID: 3919201361591226958}
+  wristR: {fileID: 3919201360007747572}
+  wristL: {fileID: 3919201362041258874}
+  legL: {fileID: 3919201360278543026}
+  legR: {fileID: 3919201360197333836}
+  bootL: {fileID: 3919201361260756100}
+  bootR: {fileID: 3919201361091780872}
 --- !u!1 &3787929424144392754
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Utilities
@@ -5,6 +6,15 @@ namespace Utilities
     public class FollowPlayerXY : MonoBehaviour
     {
         [SerializeField] private Vector2 offset;
+
+        [Serializable]
+        private struct Constraints
+        {
+            public float left;
+            public float right;
+            public float top;
+            public float bottom;
+        }
 
         private Transform player;
 
